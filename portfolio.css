@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Quicksand:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo-cres{
+    position: relative;
+    left: 5vw;
+}
+#logo-cres a{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 6vh;
+}
+span{
+    color: white;
+}
+nav{
+   width: 40vw;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   left: 35vw;
+}
+nav p{
+    display: inline-block;
+    margin-left: 4vh;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.8vh;
+    transition: 0.5s;
+}
+nav p:hover{
+    text-decoration: underline;
+    filter: blur(1px);
+}
+header button{
+    width: 8vw;
+    height: 5vh;
+    background-color: yellow;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    position: absolute;
+    right: 5vw;
+    transition: 0.5s;
+}
+header button:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    width: 100vw;
+    height:85vh;
+    display: flex;
+    flex-direction: column;
+}
+#profile-img{
+    width: 40vw;
+    height: 85vh;
+    position: absolute;
+    right: 0;
+}
+main h1{
+    width: 40vw;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 6vh;
+    position: relative;
+    top: 20vh;
+    left: 15vw;
+}
+main h1:nth-of-type(2){
+    color: yellow;
+}
+main p{
+    width: 43vw;
+    color: white;
+    position: absolute;
+    top: 53vh;
+    left:15vw ;
+    font-size: 2.5vh;
+    font-family: 'Quicksand', sans-serif;
+}
+main button{
+    width: 8vw;
+    height: 5vh;
+    background-color: yellow;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    position: absolute;
+    top: 63vh;
+    left:15vw;
+    transition: 0.5s;
+}
+main button:hover{
+    background-color: white;
+    color: black;
+}
