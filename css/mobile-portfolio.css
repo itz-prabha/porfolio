@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Quicksand:wght@700&display=swap');
+@media(orientation:portrait){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    main{
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #por-right-img{
+        width: 30vw;
+        height: 95vh;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        width: 60vw;
+        font-size: 4vh;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        position: relative;
+        top: 10vh;
+        left: 15vw;
+    }
+    h1:nth-of-type(2){
+        color: #f9004d;
+    }
+    #description{
+        width: 50vw;
+        font-size: 2.3vh;
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        top: 20vh;
+        left: 15vw;
+    }
+    #user-img{
+        width: 30vh;
+        height: 30vh;
+        background-color:white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 35vh;
+       right: 0;
+       z-index: 1;
+    }
+    #user-img img{
+        width: 27vh;
+        height: 27vh;
+        border-radius: 50%;
+    }
+    #user-name{
+        width: 43vw;
+        height: 7vh;
+        /* background-color:#295D8F ; */
+        background-color: #f9004d;
+        position: absolute;
+        top: 51.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-name-details{
+        color: white;
+        font-size: 1.5vh;
+        font-family: 'Quicksand', sans-serif;
+    }
+    #connect-me{
+        width: 30vw;
+        height: 5vh;
+        background-color:#f9004d;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vh;
+        position: absolute;
+        top: 65vh;
+        left: 10vw;
+        border-radius: 30px;
+        border: none;
+    }
+    #email-id{
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vh;
+        color:#162940;
+        position: absolute;
+        top: 73vh;
+        left: 5vw;
+    }
+    #footer{
+        width: 100vw;
+        height: 7vh;
+        background-color: #162940;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        bottom: -7.5vh;
+    }
+    #footer nav{
+        display: flex;
+        position: absolute;
+    }
+    nav p{
+        display: inline-block;
+        margin-left: 1.5vh;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.8vh;
+    }
+    nav p:hover{
+        text-decoration: underline;
+        filter: blur(0.5px);
+        color: #f9004d;
+    }
+}
